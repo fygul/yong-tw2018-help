@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <meta name="author" content="無瑕散人">
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>陸、附錄 - 小小輸入法臺灣包2018年版使用說明</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -36,11 +36,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> 小小輸入法臺灣包2018年版使用說明</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+        
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -115,7 +111,7 @@
         
             <li><a class="toctree-l3" href="#_3">二、本包裝增減的東西</a></li>
         
-            <li><a class="toctree-l3" href="#_4">三、碼表來源</a></li>
+            <li><a class="toctree-l3" href="#_4">三、碼表來源與格式</a></li>
         
             <li><a class="toctree-l3" href="#_5">四、皮膚來源</a></li>
         
@@ -203,9 +199,18 @@
 </ul>
 </li>
 </ol>
-<h2 id="_4">三、碼表來源</h2>
+<h2 id="_4">三、碼表來源與格式</h2>
+<h3 id="1">1. 碼表來源</h3>
 <p>舊版本所用的碼表來源是放在國網中心，原連結已失效。本版除“無”系三個碼表延用舊版碼表並做了修正，其餘都依新的來源（<a href="https://github.com/chinese-opendesktop/cin-tables">Chinese Open Desktop</a>）重新產生，改成小小適用格式的碼表，在這些表碼的檔頭都記錄了原始來源的連結與本人所做的修正工作。新舊版所採用的碼表是同一源頭，只是不同時期存放在不同網路空間。</p>
 <p>原始來源的碼表有些有標示授權方式，有的是<a href="http://creativecommons.org.tw/public_domain">Public Domain</a>，詳見原始來源連結中的說明。</p>
+<h3 id="2">2. 小小輸入法的碼表格式</h3>
+<p>以#開頭的是注釋，[data]之前是檔頭，之後是碼表的主體，即代碼與字詞的對應。自行開啟任一碼表檔案查看一下就清楚了。</p>
+<p>小小支援兩種代碼與字詞的對應方式：</p>
+<ol>
+<li>一組代碼對應一組字或詞，如：ba 吧</li>
+<li>一組代碼對應多組字或詞，如：ba 吧 八 巴 叭</li>
+</ol>
+<p>不論用1或2，中間的分隔必須是半型空白，不可以是TAB。還有就是左邊的代碼不要混雜大小寫，本軟體包裝一律採用小寫字母（小小似乎在此會區分大小寫，所以在大寫狀態下，小寫的代碼就無效）；若用了大寫字母，在小寫狀態下這些代碼就無效。</p>
 <h2 id="_5">四、皮膚來源</h2>
 <p>以下是skin資料夾下的數個皮膚，有的依實際使用狀況做了小調整：</p>
 <table>
@@ -238,7 +243,7 @@
 <td>暗色調皮膚。</td>
 </tr>
 <tr>
-<td>静</td>
+<td>靜</td>
 <td><a href="http://yong.dgod.net/read.php?tid=743&amp;fid=6">靜</a></td>
 <td>綠色調。</td>
 </tr>
@@ -314,8 +319,6 @@
 </div>
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
-      <script src="../search/require.js"></script>
-      <script src="../search/search.js"></script>
 
 </body>
 </html>

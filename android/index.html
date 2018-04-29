@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <meta name="author" content="無瑕散人">
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>肆、Android版說明 - 小小輸入法臺灣包2018年版使用說明</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -36,11 +36,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> 小小輸入法臺灣包2018年版使用說明</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+        
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -73,11 +69,13 @@
         
             <li><a class="toctree-l3" href="#_1">一、簡介</a></li>
         
-            <li><a class="toctree-l3" href="#_2">二、安裝</a></li>
+            <li><a class="toctree-l3" href="#_2">二、安裝前的提醒</a></li>
         
-            <li><a class="toctree-l3" href="#_3">三、使用提醒</a></li>
+            <li><a class="toctree-l3" href="#_3">三、安裝</a></li>
         
-            <li><a class="toctree-l3" href="#android_1">四、Android包所做的調整</a></li>
+            <li><a class="toctree-l3" href="#_4">四、使用提醒</a></li>
+        
+            <li><a class="toctree-l3" href="#android_1">五、Android包所做的調整</a></li>
         
         </ul>
     
@@ -170,15 +168,23 @@
                 <h1 id="android">肆、Android版說明</h1>
 <h2 id="_1">一、簡介</h2>
 <p>本軟體包裝的Android版並不包含主程式，只有碼表與設置檔。在裝好主程式後，自行將碼表與設置檔複製到指定的位置。</p>
-<p>以下僅對本軟體包裝的使用做說明。必要時可再參考這篇〈<a href="http://yong.dgod.net/read.php?tid=24&amp;fid=7">android版本使用說明</a>〉。</p>
-<h2 id="_2">二、安裝</h2>
-<p>自行前往<a href="http://yong.dgod.net/index.php?c=thread&amp;fid=2">小小輸入法平台網站</a>下載Android版apk包裝檔來安裝。正式版或測試版皆可，記得要找較新的版本。</p>
-<p>apk中只有程式與一種輸入法碼表：永碼，及用戶設置檔yong.ini。後二者會被裝到Android裝置的sdcard/yong目錄中。若要使用自己的輸入法碼表，要自行把碼表與設置檔複製到該目錄中，把它們換掉。裝好後先檢查一下sdcard/yong有無出現，若沒有，試試先啟用此輸入法，先用它隨便打幾個字，然後關閉，見目錄出現後，再做之後的動作。</p>
-<p>以下說明如何從Windows版臺灣包中取得必要的檔案，換掉Android裝置sdcard/yong目錄中的檔案：</p>
+<p>以下僅對本軟體包裝的使用做說明。必要時可再參考這篇〈<a href="http://yong.dgod.net/read.php?tid=24&amp;fid=7">android版本使用說明</a>〉。Android方面的操作請參考你自己裝置所附的說明文件，或是去請教會的人。</p>
+<h2 id="_2">二、安裝前的提醒</h2>
+<p>在決定使用Android版之前，請先看清楚並考慮好以下項目，免得搞了老半天之後卻發現原來在自己裝置上無法用而跳腳。</p>
+<ul>
+<li>原作者提及僅在有限環境下測試，所以在你的Android裝置上不見得就可以使用。</li>
+<li>裝置上要有/sdcard/目錄（即SD卡）才能用，因檔案要放到該處。</li>
+<li>安裝原作者提供的apk檔必須要先開啟裝置的“允許安裝來源不明的應用程式”這項安全性設置；你可以暫時開啟，裝好後再關閉。同時也必須開放一些存取權限給應用程式，你若覺得開放了沒必要的權限，可以安裝好之後試著限制一下（至少開放儲存、相機、麥克風，可用在拍攝二維條碼、語音輸入）。若還是覺得不放心或是擔心安全性上的風險，建議就別用它，因為任何後果都是由你承當的。總之，為你自身的決定負全責。</li>
+</ul>
+<p>如果你同本人一樣信得過原作者提供的apk，而且決定使用它，那麼就可以繼續下面的工作。</p>
+<h2 id="_3">三、安裝</h2>
+<p>自行前往<a href="http://yong.dgod.net/index.php?c=thread&amp;fid=2">小小輸入法平台網站</a>下載Android版apk包裝檔來安裝。正式版或測試版皆可，記得要找新的版本。</p>
+<p>apk中主要只有主程式與一種輸入法碼表：永碼，及用戶設置檔yong.ini。後二者會被裝到Android裝置的/sdcard/yong/目錄中。若要使用自己的輸入法碼表，要自行把碼表與設置檔複製到該目錄中，把它們換掉。</p>
+<p>以下說明如何從本軟體包裝的Android版，或是從Windows版臺灣包中取得必要的檔案，換掉Android裝置/sdcard/yong/目錄中的檔案：</p>
 <ol>
 <li>
 <p>先在Android中下載apk並安裝好。</p>
-<p>sdcard/yong目錄會有一目錄與一檔案：</p>
+<p>裝好apk後先檢查一下/sdcard/yong/有無出現，若沒有，試試先啟用此輸入法，先用它隨便打幾個字，然後關閉，見目錄出現後，再做之後的動作。/sdcard/yong/下會有一子目錄與一檔案：</p>
 <ul>
 <li>mb/</li>
 <li>yong.ini</li>
@@ -188,43 +194,52 @@
 <p>換上設置檔與碼表：</p>
 <ul>
 <li>
-<p>在有安裝Windows版臺灣包的電腦中，從安裝目錄中，取得二項：</p>
-<ul>
-<li>tw/</li>
-<li>.yong/yong.ini</li>
-</ul>
-<p>用這個.yong/yong.ini覆蓋上述Android版的yong.ini。</p>
-<p>複製tw/到sdcard/yong目錄。mb/可以刪除掉。</p>
-</li>
-<li>
-<p>或者可以取得本人另行為Android調整與打包的現成壓縮檔（即本Android包）。其中的檔案目錄結構： </p>
+<p>下載本人另行為Android調整與打包的現成壓縮檔。其中的檔案目錄如下： </p>
 <ul>
 <li>yong/tw/</li>
 <li>yong/yong.ini</li>
 </ul>
-<p>若直接解壓縮到sdcard，檔案即就定位。</p>
-<p>或先在別處解開，再自行複製/yong/下的東西過去。 </p>
+<p>若直接解壓縮到/sdcard，檔案即就定位。</p>
+<p>或先在別處解開，再自行複製yong/下的東西過去。 </p>
+</li>
+<li>
+<p>或者，自行在有安裝本軟體Windows版的電腦，從安裝目錄中，取得二項：</p>
+<ul>
+<li>tw/</li>
+<li>.yong/yong.ini</li>
+</ul>
+<p>用這個.yong/yong.ini覆蓋上述apk版的yong.ini。</p>
+<p>複製tw/到/sdcard/yong/之中。</p>
 </li>
 </ul>
+<p>完成後，mb/可以刪除掉。</p>
 </li>
 </ol>
-<h2 id="_3">三、使用提醒</h2>
-<p>以下的提醒是針對在Android環境使用小小輸入法平台（系統中顯示的文字是yong，故以下用此做簡稱）與本Android包所寫的。</p>
-<p>安裝完成後記得到系統的“設置”&gt;&gt;“語言與鍵盤”中確認一下有啟用yong輸入法。你也許有另裝了其它輸入法，調整一下預設的輸入法到yong。</p>
+<h2 id="_4">四、使用提醒</h2>
+<p>以下的提醒是針對在Android環境使用小小輸入法（系統中顯示的文字是yong，故以下用此做簡稱）與本Android包所寫的。</p>
+<p>安裝完成後記得到系統的“設置”&gt;&gt;“語言與輸入設定”中確認一下有啟用“yong輸入法”。你也許有另裝了其它輸入法，調整一下目前的鍵盤輸入法到yong。</p>
 <p>若有硬體實體鍵盤，軟鍵盤也許無法出現，若有這現象試著關閉實體鍵盤看看。</p>
 <p>執行畫面：</p>
 <p><img alt="執行畫面" src="../img/android.png" /></p>
 <p>除了畫面與選單大為不同，在Windows版上多數的輸入法與功能，像命令直通車、分詞庫、聯想，在Android也能用，但有幾點要注意：</p>
 <ul>
+<li>如同Linux版一般，某些Widows平台才有的功能，在Android上也沒有。</li>
 <li>注意一下軟鍵盤上的鍵，不會有注音符號、倉頡碼、大易碼……，只有英文字母。即不管切換何種輸入法，軟鍵盤上只會有英文字母，但在按鍵後，仍會出現所用輸入法的符號或字根代碼字。</li>
 <li>軟鍵盤上有些是兩個符號共用一鍵，要上方的符號時，要長按，像q與1，點一下是q，若長按則是1。拆碼有用到數字鍵的，像大易、注音、漢音拼音要注意到這點。</li>
-<li>軟鍵盤上的符號不若電腦鍵盤多，所以碼表中若有用到軟鍵盤所缺的符號，不得不調整（後述），若缺太多的，像大易可能就沒法正常使用了。</li>
+<li>軟鍵盤上的某些符號，要多按幾個鍵才能找到，這點需實際試過一番才會清楚。關於鍵盤的使用，引用〈<a href="http://yong.dgod.net/read.php?tid=24&amp;fid=7">android版本使用說明</a>〉中相關的文字如下：</li>
 </ul>
-<p>若上述幾點，讓你覺得不便，那麼可以改用另一個在Android平台上也做的相當不錯的輸入法：<a href="http://lime-ime.github.io/limeime/">LIME HD</a>。或者所購買的手機也許已有預裝手寫辨識或其他種輸入法軟體。</p>
-<h2 id="android_1">四、Android包所做的調整</h2>
-<p>基於上述原因，從Windows包取得的東西，為了能在Android較平順使用，做了點調整：</p>
+<blockquote>
+<p>5 按鍵模擬僅有限支持（不支持HOME，END等）。</p>
+<p>6 長按中英文切換鍵可以喚出輸入法菜單，可以設置全/半角，中英文標點，簡繁轉換，輸入方案等。</p>
+<p>7 全鍵盤手機，SHIFT_SPACE切換中英文，ALT_SPACE調用菜單</p>
+<p>8 編碼中包含符號或數字編碼的，可以按shift鍵之後在軟鍵盤中找到符號編碼，按下後會自動回到qwerty鍵盤，如果有連續多個符號，可能按123的符號鍵盤更合適。</p>
+<p>9 長按qwerty這一行，可以輸入數字；長按dzxc可以移動光標。</p>
+</blockquote>
+<p>若上述幾點，讓你覺得不便，那麼可以改用另一個在Android平台上也做的相當不錯的輸入法：<a href="http://lime-ime.github.io/limeime/">LIME HD</a>。或者所購買的裝置也許已有預裝手寫辨識或其他種輸入法軟體。</p>
+<h2 id="android_1">五、Android包所做的調整</h2>
+<p>從Windows包取得的東西，為了能在Android較平順使用，做了點調整：</p>
 <ul>
-<li>yong.ini設置檔的調整：預設輸入法碼表改為無暇覓。主要原因是“特無”在電腦上輸入標點符號時，直接用電腦鍵盤上的符號即可，但Andoid的軟鍵盤缺了幾個符號，反而不便。</li>
+<li>tw/cmds.dic：命令直通車移除開頭的 `; 符號。因在Android的鍵盤上找這類符號較費事。</li>
 </ul>
               
             </div>
@@ -271,8 +286,6 @@
 </div>
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
-      <script src="../search/require.js"></script>
-      <script src="../search/search.js"></script>
 
 </body>
 </html>

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <meta name="author" content="無瑕散人">
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>貳、簡易使用說明 - 小小輸入法臺灣包2018年版使用說明</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -36,11 +36,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> 小小輸入法臺灣包2018年版使用說明</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+        
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -329,6 +325,14 @@
 </tr>
 </tbody>
 </table>
+<h3 id="5">5. 初使用時可能想做的調整</h3>
+<p>預設的設定值是依照本人的輸入習慣所做，使用者可能會想依自己習慣做以下幾個調整：</p>
+<ol>
+<li>光標跟隨：即讓候選窗跟隨著輸入的位置移動。因為自己很少選字，這功能對我反而是種干擾。若要開啟此功能，在“設置”畫面就能調整了，“候選窗”取消“不光標跟選”。</li>
+<li>皮膚：在“設置”畫面就能調整了。</li>
+<li>調整預設輸入法的碼表：這要調整設置檔中的一個數字，請參見後面“設置檔之補充說明”。</li>
+</ol>
+<p>其他需要自行修改設定檔才行進行的調整，建議在使用過一段時間較為熟悉之後再去做。</p>
 <h2 id="_3">二、進階使用</h2>
 <h3 id="1-yongchm">1. yong.chm“小小輸入法入門指南”中的幾項補充</h3>
 <ol>
@@ -350,7 +354,7 @@
 <li>字、碼互相轉譯功能：這功能利用命令直通車的作法，以python實作，故電腦需有安裝<a href="https://www.python.org/">Python</a> 3.X才能用。字轉碼時，將文字複製到剪貼簿，打ymode，轉出的碼在剪貼簿中，自行貼到文字編輯器中。同理，碼轉字時，將代碼複製後，打xmode，再把文字貼出來。</li>
 </ol>
 <p>上述1, 2項之檔案可見下述“設置檔之補充說明”中的“分詞庫”。3, 4項之設置可見後述“碼表中的設置補充說明”。</p>
-<p>小小輸入法平台本身就提供了繁簡轉換的功能，打正體字即可輸出簡體字，照理說本碼表不需再包含簡體字。但為了揭示某些字最簡碼的來源，仍保留簡體字，如“鄒”的最簡碼“NEB”是源自簡體字的“邹”。打“NEB”時這兩個字都會出現在選字區，方便不熟悉的人瞭解這種源自簡體字的最簡碼。其它類似的例子組合像“燦、灿”、“鑽、鉆”等等……。</p>
+<p>小小輸入法平台本身就提供了繁簡轉換的功能，打正體字即可輸出簡體字，照理說本碼表不需再包含簡體字。但為了揭示某些字最簡碼的來源，仍保留簡體字，如“鄒”的最簡碼“neb”是源自簡體字的“邹”。打“neb”時這兩個字都會出現在選字區，方便不熟悉的人瞭解這種源自簡體字的最簡碼。其它類似的例子組合像“燦、灿”、“鑽、鉆”等等……。</p>
 <h3 id="3_1">3. 快無與特無</h3>
 <p>快無與特無的輔助碼表都是用無暇覓。</p>
 <p>特無輸入符號的方式，與嘸蝦米的作法不一樣，改變如下：</p>
@@ -497,8 +501,6 @@
 </div>
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
-      <script src="../search/require.js"></script>
-      <script src="../search/search.js"></script>
 
 </body>
 </html>
